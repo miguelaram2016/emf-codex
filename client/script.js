@@ -87,6 +87,10 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from the server -> bot's response
+
+  // http://localhost:5000 for development
+  // https://emf-codex.onrender.com for production
+
   const response = await fetch('https://emf-codex.onrender.com', {
     method: 'POST',
     headers: {
