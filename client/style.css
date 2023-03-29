@@ -13,8 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: calc(100vh - constant(safe-area-inset-bottom)); /* fallback for devices that don't support viewport-fit */
-  height: calc(100vh - env(safe-area-inset-bottom)); /* use viewport-fit to calculate the height of the chatbox */
+  height: 100%;
   background: #343541;
 
   display: flex;
